@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Car Tesla - model S">
+  <title>Tesla Model S</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header container">
+    <img class="header__logo" src="img/Tesla-Wordmark-Red.jpg" alt="Tesla">
+   
+    <nav class="header__nav">      
+      <button class="header__menu-button" aria-label="show menu">
+        <svg class="header__hamburger" width="24" height="15">
+        <use href="img/icons.svg#menu"></use>
+        </svg> 
+      </button>
+
+      <div class="header__menu">
+        <ul class="menu__list menu__list--middle">
+          <li class="menu__item"><a href="#" class="menu__link menu__link--current-page">Model S</a></li>
+          <li class="menu__item"><a href="#" class="menu__link">Model X</a></li>
+          <li class="menu__item"><a href="#" class="menu__link">Model 3</a></li>
+          <li class="menu__item"><a href="#" class="menu__link">Roadster</a></li>
+          <li class="menu__item"><a href="#" class="menu__link">Energy</a></li>
+        </ul>
+          
+           
+        <ul class="menu__list menu__list--end">
+          <li class="menu__item"><a href="#" class="menu__link menu__link--border">Магазин</a></li>
+          <li class="menu__item"><a href="#" class="menu__link menu__link--border">Войти</a></li>
+        </ul>        
+      </div>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero__main">
+      <div class="hero__intro">
+        <h1 class="hero__title">Model S</h1>
+        <p class="hero__text">Добро пожаловать в будущее!</p>
+      </div>
+      
+      <img class="hero__image hero__image--full-screen" src="img/Tesla_logo_and_car.jpg" alt="Tesla car - Model S">
+      <img class="hero__image hero__image--mobile" src="img/Tesla_logo_and_car-small_screen.jpg" alt="Tesla car - Model S">
+    </div>
+    <!--./ Main with img-->
+
+    <div class="hero__model-info">
+      <div class="hero__specification">
+        <div class="specification__item">
+          <img class="specification__speed specification__speed--full-screen" src="img/icons/Speed.jpg" alt="speed">
+          <img class="specification__speed specification__speed--mobile" src="img/icons/Speed-small.jpg" alt="speed">
+          
+          <div class="specification__text">
+            <p class="specification__text--big"> <span class="specification__text--big-number">2,7</span> сек</p>
+            <p class="specification__text--small">0-100 км/час</p>
+          </div>         
+        </div>
+  
+        <div class="specification__item">
+          <img class="specification__road specification__road--full-screen" src="img/icons/Road.jpg" alt="road">
+          <img class="specification__road specification__road--mobile" src="img/icons/Road-small.jpg" alt="road">  
+          <div class="specification__text">
+            <p class="specification__text--big"> <span class="specification__text--big-number">632</span> км</p>
+            <p class="specification__text--small">запас хода</p>
+          </div>         
+        </div>
+      </div>
+      <!-- ./Spec -->
+
+      <!-- Test-drive -->
+      <div class="hero__test-drive">
+        <div class="test-drive__block">
+          <svg class="test-drive__icon test-drive__icon--mobile">
+            <use href="img/icons.svg#steering-wheel"></use>
+          </svg>
+          <p class="test-drive__text">Тест драйв</p>
+        </div>
+        
+
+        <button class="test-drive__button button-order" aria-label="order">Заказать</button>
+      </div>      
+    </div>
+    <!-- ./Model-info -->
+
+    <!-- chevron -->
+    <a href="#model-intro" class="hero__link">
+      <svg class="hero__chevron-bottom">
+        <use href="img/icons.svg#vector"></use>
+      </svg>
+    </a>  
+  </section>
+  <!-- ./Section HERO -->
+
+  <!-- Section Model-INTRO -->
+  <section class="model-intro" id="model-intro">
+    <div class="model-intro__cockpit">
+      <p class="model-intro__model-title">Model S</p>
+    </div>
+    <!--./cockpit-->
+
+    <!--Red Block-->
+    <div class="model-intro__block">
+      <div class="model-intro__wrapper">
+        <article class="model-intro__introduction">
+          <h2 class="introduction__title">Будущее вождения</h2>
+          <p class="introduction__text">Модель S обладает лучшей в своем классе вместимостью: в машине поместится до пяти взрослых и двух детей. Оснащена современным 17-дюймовым сенсорным экраном. Усовершенствованная шумовая инженерия создает динамику звука, сравнимую со студией звукозаписи, а стеклянная крыша обеспечивает просторный интерьер для каждого пассажира.</p>
+        </article>
+  
+        <div class="model-intro__summary">
+          <div class="summary__item">
+            <svg class="summary__icon summary__icon--screen">
+              <use href="img/icons.svg#screen"></use>
+            </svg>
+          
+            <div class="summary__text">
+              <p class="summary__text--big"> <span class="summary__text--big-number">17</span> дюймов</p>
+              <p class="summary__text--small">Большой дисплей</p>
+            </div>         
+          </div>
+  
+          <div class="summary__item">
+            <svg class="summary__icon summary__icon--wifi">
+              <use href="img/icons.svg#wifi"></use>
+            </svg>
+          
+            <div class="summary__text">
+              <p class="summary__text--big">Беспроводное<br> обновление ПО</p>
+              <p class="summary__text--small">Повышенная функциональность</p>
+            </div>         
+          </div>
+  
+          <div class="summary__item">
+            <svg class="summary__icon summary__icon--bag">
+              <use href="img/icons.svg#bag"></use>
+            </svg>
+          
+            <div class="summary__text">
+              <p class="summary__text--big"> <span class="summary__text--big-number">894</span> литра</p>
+              <p class="summary__text--small">Объем грузового пространства</p>
+            </div>         
+          </div>
+        </div>
+      </div>
+      
+
+      <div class="model-intro__learn-more">
+        <div class="learn-more__info">
+          <svg class="learn-more__icon">
+            <use href="img/icons.svg#more_info"></use>
+          </svg>
+          <p class="learn-more__text">Узнать больше</p>
+        </div>
+        
+
+        <button class="button-order button-order--aside" aria-label="order">Заказать</button>
+      </div>      
+    </div>     
+  </section>
+
+  <!-- Section Model-INFO-->
+  <section class="model-info">
+    <div class="model-info__car-frame">
+      <p class="model-info__model-title">Model S</p>    
+      <img class="model-info__image" src="img/Car_frame_group.png" alt="Car frame group">
+    </div>
+    <!--./car-frame -->
+
+    <!--Red Block-->
+    <div class="model-info__block">
+      <div class="model-info__wrapper">
+        <article class="model-info__introduction">
+          <h2 class="introduction__title">Самый безопасный автомобиль в мире</h2>
+          <p class="introduction__text">Модель S достигла наивысшей оценки безопасности любого автомобиля, когда-либо испытанного, и установила рекорд по наименьшей вероятности травмы пассажиров - от несчастных случаев на переднем, боковом, заднем сидении и в ДТП с переворотом авто.</p>
+        </article>
+
+        <!-- Block with Stars -->
+        <div class="model-info__security">
+          <h2 class="introduction__title">Оценка защиты:</h2>
+
+          <div class="security__wrapper">
+            <div class="security__item">
+              <p class="security__text">Спереди</p>
+              <div class="security__line">
+                <img class="security__icon" src="img/icons/star.svg" alt="star">
+                <img class="security__icon" src="img/icons/star.svg" alt="star">
+                <img class="security__icon" src="img/icons/star.svg" alt="star">
+                <img class="security__icon" src="img/icons/star.svg" alt="star">
+                <img class="security__icon" src="img/icons/star.svg" alt="star">
+              </div>
+            </div>
+            
+            <div class="security__item">
+              <p class="security__text">Сбоку</p>
+              <div class="security__line">
+                <img class="security__icon" src="img/icons/star.svg" alt="star">
+                <img class="security__icon" src="img/icons/star.svg" alt="star">
+                <img class="security__icon" src="img/icons/star.svg" alt="star">
+                <img class="security__icon" src="img/icons/star.svg" alt="star">
+                <img class="security__icon" src="img/icons/star.svg" alt="star">
+              </div>
+            </div>
+              
+            <div class="security__item">
+              <p class="security__text">Сбоку <span class="security__text--small">(стойка)</span> </p>
+              <div class="security__line">
+                <img class="security__icon" src="img/icons/star.svg" alt="star">
+                <img class="security__icon" src="img/icons/star.svg" alt="star">
+                <img class="security__icon" src="img/icons/star.svg" alt="star">
+                <img class="security__icon" src="img/icons/star.svg" alt="star">
+                <img class="security__icon" src="img/icons/star.svg" alt="star">
+              </div>
+            </div>
+                
+            <div class="security__item">
+              <p class="security__text">Водитель</p>
+              <div class="security__line">
+                <img class="security__icon" src="img/icons/star.svg" alt="star">
+                <img class="security__icon" src="img/icons/star.svg" alt="star">
+                <img class="security__icon" src="img/icons/star.svg" alt="star">
+                <img class="security__icon" src="img/icons/star.svg" alt="star">
+                <img class="security__icon" src="img/icons/star.svg" alt="star">
+              </div>
+            </div>
+                  
+            <div class="security__item">
+              <p class="security__text">Пассажир</p>
+              <div class="security__line">
+                <img class="security__icon" src="img/icons/star.svg" alt="star">
+                <img class="security__icon" src="img/icons/star.svg" alt="star">
+                <img class="security__icon" src="img/icons/star.svg" alt="star">
+                <img class="security__icon" src="img/icons/star.svg" alt="star">
+                <img class="security__icon" src="img/icons/star.svg" alt="star">
+              </div>
+            </div>                    
+          </div>  
+        </div>
+        <!-- ./Block with Stars -->
+
+        <div class="model-info__safety">
+          <svg class="safety__icon">
+            <use href="img/icons.svg#security"></use>
+          </svg>
+          <div class="safety__text">
+            <p class="safety__text--big">5 звезд</p>
+            <p class="safety__text--small">безопасности</p>
+          </div>             
+        </div>
+      </div>
+      
+
+      <div class="model-intro__learn-more model-intro__learn-more--no-padding">
+        <div class="learn-more__info">
+          <svg class="learn-more__icon">
+            <use href="img/icons.svg#more_info"></use>
+          </svg>
+          <p class="learn-more__text">Узнать больше</p>
+        </div>
+        
+
+        <button class="button-order button-order--aside" aria-label="order">Заказать</button>
+      </div>      
+    </div>     
+  </section>
+  
+</body>
+</html>
