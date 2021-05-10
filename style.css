@@ -457,6 +457,7 @@ button {
   width: 70%;
   order: 1;
   position: relative;
+  overflow: hidden;
 }
 
 .model-info__image {
@@ -725,6 +726,14 @@ button {
 
   /* Hero specification*/
 
+  .hero__text {
+    font-size: 1.5rem;
+  }
+
+  .specification__text--big-number {
+    font-size: 5rem;
+  }
+
   .specification__speed--full-screen {
     visibility: hidden;
     opacity: 0;
@@ -735,6 +744,8 @@ button {
     opacity: 1;
     visibility: visible;
     position: relative;
+    width: 65px;
+    height: 50px;
   }
 
   .specification__road--full-screen {
@@ -747,17 +758,26 @@ button {
     opacity: 1;
     visibility: visible;
     position: relative;
+    width: 38px;
+    height: 61px;
   }
 
   .test-drive__icon {
     fill: var(--red);
     -webkit-filter: none;
     filter: none;
+    width: 30px;
+    height: 30px;
   }
 
   .test-drive__text {
+    font-size: 1.6rem;
     color: var(--red);
     text-shadow: none;
+  }
+
+  .button-order {
+    font-size: 1.6rem;
   }
 
   /* Model INTRO and INFO */
@@ -877,10 +897,6 @@ button {
     font-size: 5rem;
   }
 
-  .hero__text {
-    font-size: 1rem;
-  }
-
   .specification__text--big {
     font-size: 1.5rem;
   }
@@ -897,9 +913,32 @@ button {
     font-size: 10rem;
   }
 
+  .test-drive__text {
+    font-size: 1.3rem;
+  }
+
+  .button-order {
+    font-size: 1.3rem;
+  }
+
   /* Layout  */
   .hero__intro {
     top: 50px;
+  }
+
+  .specification__speed--mobile {
+    width: 38px;
+    height: 29px;
+  }
+
+  .specification__road--mobile {
+    width: 25px;
+    height: 41px;
+  }
+
+  .test-drive__icon {
+    width: 22px;
+    height: 22px;
   }
 
   .model-intro__wrapper,
@@ -925,12 +964,13 @@ button {
 
   .model-intro,
   .model-info {
-    height: 700px;
+    height: 760px;
   }
 
+  .model-info__car-frame,
   .model-intro__cockpit {
     padding: 0;
-    height: 350px;
+    height: 330px;
   }
 
   .model-intro__block,
@@ -981,5 +1021,28 @@ button {
 
   .menu__item {
     margin-bottom: 0.5em;
+  }
+
+  .model-intro,
+  .model-info {
+    height: 780px;
+  }
+  .model-info__car-frame,
+  .model-intro__cockpit {
+    padding: 0;
+    height: 330px;
+  }
+
+  .model-intro__block,
+  .model-info__block {
+    justify-content: center;
+    height: 450px;
+    padding: 35px 40px;
+  }
+
+  /* Typo */
+
+  .hero__text {
+    font-size: 1rem;
   }
 }
